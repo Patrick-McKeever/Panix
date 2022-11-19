@@ -1,0 +1,62 @@
+[
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/sata_port.cpp -o build/bin/sys/sata_port.o",
+    "file": "build/bin/sys/sata_port.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/pcie_tree.cpp -o build/bin/sys/pcie_tree.o",
+    "file": "build/bin/sys/pcie_tree.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/page_map.cpp -o build/bin/sys/page_map.o",
+    "file": "build/bin/sys/page_map.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/gpt.cpp -o build/bin/sys/gpt.o",
+    "file": "build/bin/sys/gpt.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/io.cpp -o build/bin/sys/io.o",
+    "file": "build/bin/sys/io.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/ext2.cpp -o build/bin/sys/ext2.o",
+    "file": "build/bin/sys/ext2.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/entry.cpp -o build/bin/sys/entry.o",
+    "file": "build/bin/sys/entry.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/kheap.cpp -o build/bin/sys/kheap.o",
+    "file": "build/bin/sys/kheap.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/acpi.cpp -o build/bin/sys/acpi.o",
+    "file": "build/bin/sys/acpi.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/log.cpp -o build/bin/sys/log.o",
+    "file": "build/bin/sys/log.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c sys/buddy_allocator.cpp -o build/bin/sys/buddy_allocator.o",
+    "file": "build/bin/sys/buddy_allocator.o"
+  },
+  {
+    "directory": ".",
+    "command": "gcc -nostdlib -std=gnu++20 -fms-extensions -pipe -g -masm=intel -ffreestanding -fno-exceptions -fno-rtti -fno-stack-protector -fno-pic -m64 -mno-80387 -mno-mmx -mno-3dnow -fpie -lgcc -mno-sse -mno-sse2 -Wall -Wextra -fno-omit-frame-pointer -mno-red-zone -O3 -I. -c libc/string.cpp -o build/bin/libc/string.o",
+    "file": "build/bin/libc/string.o"
+  }
+]

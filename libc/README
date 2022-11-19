@@ -1,0 +1,1 @@
+This directory contains implementations of a variety of C header files. At this time, it does not aim to provide a complete or rigorous libc implementation; rather, it seeks to implement various simple functions as the kernel needs them. At some point, I do intend to create a complete libc, but the kernel is not yet mature enough for that to be a worthwhile endeavor at this time.
